@@ -1,0 +1,11 @@
+I wrote this code as an attempt to start a mouse tracking tool.
+It is written in jQuery and simply stores mouse co-ordinates in an array when certian
+jQuery mouse events are fired.
+
+Possible improvements:
+-Store recordings in a database for playback later
+-Store a copy of the page being viewed to play back with.
+-Playback recording within an iFrame, with controls for stepping through etc
+-Create heatmaps from recorded data
+
+
