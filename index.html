@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><!-- template C:/wamp/www/veritas/veritas/templates/Page.ss -->
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="en-US"/>
+		<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="tracker.js"></script>
+		<script type="text/javascript" src="player.js"></script>
+		<title>MouseTracker</title>
+		<style>
+			p{
+				font-size:50px;
+				line-height:1.3em;
+			}
+			#coords{
+				right:0;
+				background:yellow;
+				width:200px;
+
+			}
+			#eventlog{
+				background:lightblue;
+				right:220px;
+			}
+			.infobox{
+				font-size:10px;
+				font-family:arial;
+				position:fixed;
+				padding:10px;
+				top:0;
+			}
+			.mousedown{
+				background:red;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="coords" class="infobox">
+			<strong>Window size:</strong> <span class="windowsize"></span><br/>
+			<br/>
+			<strong>Page:</strong> <span class="pagepos"></span><br/>
+			<strong>Client:</strong> <span class="clientpos"></span><br/>
+			<strong>Scroll:</strong> <span class="scroll"></span>		
+			<br/>
+			<strong>Event:</strong> <span class="event"></span><br/>
+			<br/>
+			<strong>Playing:</strong> <span class="playstatus"></span>
+		</div>
+		<div id="eventlog" class="infobox"></div>
+		<button class="output">output stored data</button>
+		<button class="play">play back recording</button>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla massa vitae enim tristique dignissim. Vestibulum eget sem a nibh pharetra porttitor sit amet in dui. Curabitur auctor tellus non magna mattis venenatis ornare felis mollis. Donec eget dolor sapien, id luctus est. Nunc ultricies augue vel dolor cursus cursus. Cras vestibulum, nisi non pellentesque mattis, sem mauris viverra risus, pharetra hendrerit sem lectus eget diam. Mauris id tellus eu quam pulvinar aliquet. Proin vitae risus bibendum magna tempus imperdiet sit amet et libero. Nam ornare, elit a molestie interdum, diam lorem egestas justo, sed volutpat neque lorem vel odio. Nam eget mi nec massa auctor lobortis sit amet ut eros. Aliquam rhoncus dapibus mollis. Suspendisse nunc purus, suscipit dictum iaculis at, varius mattis purus.
+		</p>
+	</body>
+</html>

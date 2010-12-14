@@ -1,0 +1,38 @@
+jQuery MouseTracker
+
+Short-term to-do:
+
+storage
+-save data to database
+-save record of pages member looked at
+-store: url, sessionid, browser size, 
+
+playback
+-create a flash-based player?
+-display webpage in an iframe
+
+-Test with flash contetnt, complex floated / tabbed / animated content
+
+Known bugs:
+-player: scrolling appears to repeat itself
+-player: mousedown/up only shows if you move the mouse after mousedown
+
+
+Heatmaps ideas:
+-need to account for different resolutions
+-need to account for fluid layouts
+
+
+
+Future ideas
+-Real-time streaming of user interactions on a page. Realtime clickmap. Pathway use overview. Top-down view of website and interactions.
+
+
+
+
+
+LaunchBug:
+create member profiles based on pages they visit?
+determine frequent buyers? loyal members? ...etc. is this ethical?
+
+**keep it legal ... make sure you don't breach privacy**
